@@ -1,6 +1,0 @@
-__pycache__/
-*.pyc
-*.log
-.env
-airflow/airflow.db
-airflow/logs/
