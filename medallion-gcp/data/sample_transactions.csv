@@ -1,0 +1,3 @@
+custno,txnno,category,amount,event_ts,ingest_file
+C001,T001,Outdoor,100.0,2025-09-20 10:00:00,sample_transactions.csv
+C002,T002,Electronics,250.5,2025-09-20 11:00:00,sample_transactions.csv
