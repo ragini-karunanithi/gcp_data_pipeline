@@ -1,2 +1,6 @@
-# gcp_data_pipeline
-GCP data engineering pipeline orchestrated with Cloud Composer (Airflow) and BigQuery
+# Medallion GCP Pipeline
+
+End-to-end CSV ingestion pipeline into BigQuery using Cloud Composer.
+- Bronze (raw)
+- Silver (curated)
+- Gold (aggregated insights)
