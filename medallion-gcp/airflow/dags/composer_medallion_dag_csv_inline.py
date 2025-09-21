@@ -50,6 +50,15 @@ with DAG(
     )
 
     def _has_files(file_list: list[str] | None) -> bool:
+        """
+        Checks if the provided list of files is not empty or None.
+
+        Args:
+            file_list (list[str] | None): A list of file names or None.
+
+        Returns:
+            bool: True if file_list is not None and contains at least one file, False otherwise.
+        """
         logging.info('GCS files: %s', file_list)
         return bool(file_list)
 
